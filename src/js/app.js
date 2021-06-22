@@ -125,7 +125,7 @@ function displayStuff(){
 				priceAmount = prices[0].amount;
 				displayAmount = sb.toBitcoin(wallets[2].balance);
 				break;
-			case "LTC":
+			case "ETH":
 				priceAmount = prices[1].amount;
 				displayAmount = sb.toBitcoin(wallets[2].balance);
 				break;
@@ -133,7 +133,7 @@ function displayStuff(){
 				priceAmount = prices[2].amount;
 				displayAmount = sb.toBitcoin(wallets[2].balance);
 				break;
-			case "ETH":
+			case "LTC":
 				priceAmount = prices[3].amount;
 				displayAmount = eth.toEther(wallets[2].balance);
 				break;
